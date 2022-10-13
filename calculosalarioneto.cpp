@@ -22,6 +22,7 @@ string nombre;
 	//pedir datos al usuario
 	cout << "ingrese su nombre :";
 	cin >> nombre;
+	getline (cin,nombre);
 	cout << "hola" << nombre << ", ingrese su salario basico: c$ ";
 	cin >> salarioBasico;
 	//calcular los ingresos
